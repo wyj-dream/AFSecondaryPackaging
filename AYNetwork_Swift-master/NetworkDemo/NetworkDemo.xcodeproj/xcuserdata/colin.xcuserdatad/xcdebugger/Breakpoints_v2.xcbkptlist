@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkDemo/Network/CustomURLCache.swift"
+            timestampString = "522140772.13748"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "cachedResponse(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkDemo/Network/CustomURLCache.swift"
+            timestampString = "522140773.622083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "storeCachedResponse(_:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkDemo/Network/CustomURLCache.swift"
+            timestampString = "522140783.931734"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "cachedResponse(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkDemo/Network/YTTNetworkCache.swift"
+            timestampString = "523954028.316911"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "getResult(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkDemo.YTTNetworkCache.getResult (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "NetworkDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/colin/Desktop/AYNetwork_Swift/NetworkDemo/NetworkDemo/Network/YTTNetworkCache.swift"
+                  timestampString = "523954030.042278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "1014">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkDemo.YTTNetworkCache.getResult (Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "NetworkDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/colin/Desktop/AYNetwork_Swift/NetworkDemo/NetworkDemo/Network/YTTNetworkCache.swift"
+                  timestampString = "523954030.052337"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "2240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

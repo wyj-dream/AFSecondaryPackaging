@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6e-2q-yLT" customClass="SingleGifCell" customModule="Liwushuo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goodsImage" translatesAutoresizingMaskIntoConstraints="NO" id="NX7-uW-o9x"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="智能设备" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEE-xA-R6R">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="Ms7-3A-h8p"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="KEE-xA-R6R" secondAttribute="bottom" id="GEQ-M2-Rwv"/>
+                <constraint firstItem="NX7-uW-o9x" firstAttribute="leading" secondItem="U6e-2q-yLT" secondAttribute="leading" id="OLo-Ip-VvD"/>
+                <constraint firstAttribute="trailing" secondItem="NX7-uW-o9x" secondAttribute="trailing" id="RG0-MJ-XNl"/>
+                <constraint firstItem="KEE-xA-R6R" firstAttribute="top" secondItem="NX7-uW-o9x" secondAttribute="bottom" constant="20" id="VRk-1r-lT7"/>
+                <constraint firstItem="NX7-uW-o9x" firstAttribute="top" secondItem="U6e-2q-yLT" secondAttribute="top" id="dZk-3h-raG"/>
+                <constraint firstItem="KEE-xA-R6R" firstAttribute="leading" secondItem="U6e-2q-yLT" secondAttribute="leading" id="euM-14-fj1"/>
+                <constraint firstAttribute="trailing" secondItem="KEE-xA-R6R" secondAttribute="trailing" id="ox4-WW-mmT"/>
+            </constraints>
+            <size key="customSize" width="121" height="142"/>
+            <connections>
+                <outlet property="photoImageView" destination="NX7-uW-o9x" id="n7q-cQ-RSb"/>
+            </connections>
+            <point key="canvasLocation" x="44.5" y="180"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="goodsImage" width="780" height="454"/>
+    </resources>
+</document>

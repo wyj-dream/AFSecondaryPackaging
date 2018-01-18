@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="QIi-cx-LG1" customClass="SingleGifColumnCell" customModule="Liwushuo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QIi-cx-LG1" id="8ER-ae-eCr">
+                <frame key="frameInset" width="100" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18R-8E-tnQ" userLabel="边缘线">
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.1764705882" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="3" id="2iJ-EJ-fnN"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V57-sZ-hj4">
+                        <state key="normal" title="热门分类">
+                            <color key="titleColor" red="0.98431372549999996" green="0.1764705882" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="V57-sZ-hj4" firstAttribute="top" secondItem="8ER-ae-eCr" secondAttribute="top" id="0Te-zo-O4O"/>
+                    <constraint firstItem="18R-8E-tnQ" firstAttribute="top" secondItem="8ER-ae-eCr" secondAttribute="top" id="597-yi-nji"/>
+                    <constraint firstAttribute="bottom" secondItem="V57-sZ-hj4" secondAttribute="bottom" id="7uE-N8-CrS"/>
+                    <constraint firstAttribute="trailing" secondItem="V57-sZ-hj4" secondAttribute="trailing" id="AKX-fG-qHQ"/>
+                    <constraint firstAttribute="bottom" secondItem="18R-8E-tnQ" secondAttribute="bottom" id="HHl-7X-mBa"/>
+                    <constraint firstItem="V57-sZ-hj4" firstAttribute="leading" secondItem="18R-8E-tnQ" secondAttribute="trailing" id="WyT-rA-SKc"/>
+                    <constraint firstItem="18R-8E-tnQ" firstAttribute="leading" secondItem="8ER-ae-eCr" secondAttribute="leading" id="o6S-Tq-QNT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="edgeLineView" destination="18R-8E-tnQ" id="wEf-P1-KUO"/>
+                <outlet property="titleBtn" destination="V57-sZ-hj4" id="BLe-sS-0BF"/>
+            </connections>
+            <point key="canvasLocation" x="144.5" y="330"/>
+        </tableViewCell>
+    </objects>
+</document>

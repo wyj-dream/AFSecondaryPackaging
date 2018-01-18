@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="93" id="WJm-iy-BxV" customClass="ColumnListCell" customModule="Liwushuo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WJm-iy-BxV" id="4EE-8Q-8P4">
+                <frame key="frameInset" width="320" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guide" translatesAutoresizingMaskIntoConstraints="NO" id="Gua-o6-kWK">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="tvR-gt-Ycj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第68期|讲真，不规矩穿衣让你衣品开挂！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nch-uz-KgC">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="07-12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0I-rX-OtQ">
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.5" green="0.4851922286" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="穿衣大队长" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQU-Ju-gYm">
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.5" green="0.4851922286" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eB9-3d-G62">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="392-fs-uTO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="2" maxX="5" maxY="0.0"/>
+                        <state key="normal" title="1788" image="feed_favoriteicon">
+                            <color key="titleColor" red="0.5" green="0.4851922286" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gih-Wv-K0d">
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="7MZ-Sn-et3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="eB9-3d-G62" secondAttribute="trailing" constant="8" id="6el-ve-NZx"/>
+                    <constraint firstAttribute="bottom" secondItem="Gua-o6-kWK" secondAttribute="bottom" constant="10" id="6rQ-Kb-gxw"/>
+                    <constraint firstItem="Gua-o6-kWK" firstAttribute="top" secondItem="4EE-8Q-8P4" secondAttribute="top" constant="10" id="HCx-Jn-lsJ"/>
+                    <constraint firstAttribute="bottom" secondItem="gih-Wv-K0d" secondAttribute="bottom" id="O8T-Ln-qGr"/>
+                    <constraint firstItem="gih-Wv-K0d" firstAttribute="leading" secondItem="4EE-8Q-8P4" secondAttribute="leading" id="RM4-Ej-FBa"/>
+                    <constraint firstItem="V0I-rX-OtQ" firstAttribute="top" secondItem="Nch-uz-KgC" secondAttribute="bottom" constant="5" id="Rg8-9a-df2"/>
+                    <constraint firstItem="Nch-uz-KgC" firstAttribute="leading" secondItem="Gua-o6-kWK" secondAttribute="trailing" constant="8" id="T1v-Wf-dsc"/>
+                    <constraint firstItem="V0I-rX-OtQ" firstAttribute="leading" secondItem="Gua-o6-kWK" secondAttribute="trailing" constant="8" id="TQU-0l-PjI"/>
+                    <constraint firstAttribute="trailing" secondItem="gih-Wv-K0d" secondAttribute="trailing" id="V2N-u2-RAU"/>
+                    <constraint firstItem="Gua-o6-kWK" firstAttribute="leading" secondItem="4EE-8Q-8P4" secondAttribute="leading" constant="10" id="Wv6-Y5-vX2"/>
+                    <constraint firstItem="UQU-Ju-gYm" firstAttribute="leading" secondItem="V0I-rX-OtQ" secondAttribute="trailing" constant="8" id="aIF-Rv-bPZ"/>
+                    <constraint firstItem="UQU-Ju-gYm" firstAttribute="top" secondItem="Nch-uz-KgC" secondAttribute="bottom" constant="5" id="eqo-kp-l11"/>
+                    <constraint firstAttribute="trailing" secondItem="Nch-uz-KgC" secondAttribute="trailing" constant="10" id="kS4-it-wDl"/>
+                    <constraint firstItem="eB9-3d-G62" firstAttribute="top" secondItem="UQU-Ju-gYm" secondAttribute="top" id="r23-A6-ckC"/>
+                    <constraint firstItem="Nch-uz-KgC" firstAttribute="top" secondItem="4EE-8Q-8P4" secondAttribute="top" constant="20" id="xh2-y7-Mpk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="photoImageView" destination="Gua-o6-kWK" id="OpW-Cb-r8k"/>
+            </connections>
+            <point key="canvasLocation" x="217" y="384.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="feed_favoriteicon" width="15" height="14"/>
+        <image name="guide" width="744" height="316"/>
+    </resources>
+</document>
